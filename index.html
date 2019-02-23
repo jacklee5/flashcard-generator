@@ -16,9 +16,14 @@
         <section>
             <h2>Conjugations</h2>
             <b>Tense: </b>
-            <select value = "present">
-                <option name = "present">Present</option>
-            </select>
+            <select value = "présent" id = "tense"></select>
+            <p>Enter verbs here, separated by commas</p>
+            <textarea style = "width:50%;height:300px" id = "verbs"></textarea>
+        </section>
+        <button id = "generate-button">Generate</button>
+        <section>
+            <h2>Result</h2>
+            <textarea style = "width:50%;height:300px" id = "result"></textarea>
         </section>
         <script src = "./script.js"></script>
     </body>
